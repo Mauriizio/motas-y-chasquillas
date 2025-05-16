@@ -5,17 +5,30 @@
     import { Sparkles } from 'lucide-react';
 
     const galleryImages = [
-      { id: 1, beforeSrc: "https://storage.googleapis.com/hostinger-horizons-assets-prod/5462c08a-468c-47d3-9700-647f36ed3364/774fc6a042a3b54260b6f097283cf290.png", afterSrc: "https://storage.googleapis.com/hostinger-horizons-assets-prod/5462c08a-468c-47d3-9700-647f36ed3364/c73947d5fba754e42f88a7b4d7dc8349.png", alt: "Transformación de perro blanco pequeño", caption: "Pequeño consentido, antes y después" },
-      { id: 2, src: "https://storage.googleapis.com/hostinger-horizons-assets-prod/5462c08a-468c-47d3-9700-647f36ed3364/4abed23a741c6e7d1b227d3ebca96ee3.jpg", alt: "Perro Poodle blanco después del corte", caption: "Elegancia Poodle" },
-      { id: 3, src: "https://storage.googleapis.com/hostinger-horizons-assets-prod/5462c08a-468c-47d3-9700-647f36ed3364/1b29157470625f319d167773f65ca417.jpg", alt: "Perro Poodle negro después del corte", caption: "Belleza oscura" },
-      { id: 4, src: "https://storage.googleapis.com/hostinger-horizons-assets-prod/5462c08a-468c-47d3-9700-647f36ed3364/70a82b15cb596e2a1ed57179508b1bd2.jpg", alt: "Perro Poodle marrón claro después del corte", caption: "Dulce mirada" },
-      { id: 5, src: "https://storage.googleapis.com/hostinger-horizons-assets-prod/5462c08a-468c-47d3-9700-647f36ed3364/e439e34e356bfb643920adf803f518b9.jpg", alt: "Perro Poodle marrón claro de cuerpo entero después del corte", caption: "Pose de estrella" },
-      { id: 6, src: "https://storage.googleapis.com/hostinger-horizons-assets-prod/5462c08a-468c-47d3-9700-647f36ed3364/0bc60d362303ab3a56e0e2a13ec7d07c.jpg", alt: "Perro mestizo pequeño después del baño", caption: "Frescura y alegría" },
-      { id: 7, src: "https://storage.googleapis.com/hostinger-horizons-assets-prod/5462c08a-468c-47d3-9700-647f36ed3364/d5a2e3448dde76cb2d091537f60eaa18.jpg", alt: "Yorkshire Terrier después del corte", caption: "Pequeño con gran estilo" },
-      { id: 8, src: "https://storage.googleapis.com/hostinger-horizons-assets-prod/5462c08a-468c-47d3-9700-647f36ed3364/f18df03bc5d84ac472d347437eda6995.jpg", alt: "Perro blanco con pañoleta después del corte", caption: "Listo para la fiesta" },
-      { id: 9, src: "https://storage.googleapis.com/hostinger-horizons-assets-prod/5462c08a-468c-47d3-9700-647f36ed3364/1006b40a321811d50cfc3c515bafe4fc.jpg", alt: "Perro Poodle blanco esponjoso después del corte", caption: "Nube de algodón" },
-      { id: 10, src: "https://storage.googleapis.com/hostinger-horizons-assets-prod/5462c08a-468c-47d3-9700-647f36ed3364/ebfe5549d5eb286fe3a7d555dc2c6a61.jpg", alt: "Perro Samoyedo blanco sonriendo", caption: "Sonrisa de satisfacción" },
-      { id: 11, src: "https://storage.googleapis.com/hostinger-horizons-assets-prod/5462c08a-468c-47d3-9700-647f36ed3364/ec5a09a29ed9ae82f0baf6346200ffd1.jpg", alt: "Perro Shih Tzu después del corte", caption: "Glamour Shih Tzu" }
+      { id: 2, src: "../public/perros2.jpg", alt: "Perro Poodle blanco después del corte", caption: "Belleza Oscura" },
+
+
+      { id: 3, src: "../public/perros3.jpg", alt: "Perro Poodle negro después del corte", caption: "Belleza oscura" },
+
+      { id: 4, src: "../public/perros3.jpg", alt: "Perro Poodle marrón claro después del corte", caption: "Dulce mirada" },
+
+      { id: 5, src:"../public/perros4.jpg", alt: "Perro Poodle marrón claro de cuerpo entero después del corte", caption: "Pose de estrella" },
+
+      { id: 6, src: "../public/perros5.jpg", alt: "Perro mestizo pequeño después del baño", caption: "Frescura y alegría" },
+
+      { id: 7, src: "../public/perros6.jpg", alt: "Yorkshire Terrier después del corte", caption: "Pequeño con gran estilo" },
+
+      { id: 8, src: "../public/perros7.jpg", alt: "Perro blanco con pañoleta después del corte", caption: "Listo para la fiesta" },
+
+      { id: 9, src: "../public/perros9.jpg", alt: "Perro Poodle blanco esponjoso después del corte", caption: "Nube de algodón" },
+
+      { id: 10, src: "../public/perros10.jpg", alt: "Perro Samoyedo blanco sonriendo", caption: "Sonrisa de satisfacción" },
+      
+      { id: 11, src: "../public/perros8.jpg", alt: "Perro Shih Tzu después del corte", caption: "Glamour Shih Tzu" },
+
+      { id: 11, src: "../public/perros8.jpg", alt: "Perro Shih Tzu después del corte", caption: "Glamour Shih Tzu" },
+
+      { id: 11, src: "../public/perros8.jpg", alt: "Perro Shih Tzu después del corte", caption: "Glamour Shih Tzu" }
     ];
 
     const GalleryPage = () => {
