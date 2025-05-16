@@ -1,0 +1,37 @@
+# Node
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.*.local
+
+# IDEs / Editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+
+# Tool caches
+.cache/
+.vite/
+
+# Test coverage
+coverage/
+
+# Temporary
+*.log
+*.tmp
+*.bak
+
+# Tailwind JIT cache
+.tailwindcache/
