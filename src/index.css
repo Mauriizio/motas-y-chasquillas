@@ -1,0 +1,100 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+3:wght@300;400;600&display=swap');
+
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    @layer base {
+      :root {
+        --background: 0 0% 100%; /* White */
+        --foreground: 330 50% 20%; /* Dark Pinkish Brown for text */
+
+        --card: 0 0% 100%;
+        --card-foreground: 330 50% 20%;
+
+        --popover: 0 0% 100%;
+        --popover-foreground: 330 50% 20%;
+
+        --primary: 330 80% 65%; /* Soft Pink */
+        --primary-foreground: 0 0% 100%; /* White text on primary */
+
+        --secondary: 250 60% 95%; /* Light Lilac */
+        --secondary-foreground: 330 50% 20%;
+
+        --muted: 250 60% 97%; /* Lighter Lilac / Beige tint */
+        --muted-foreground: 330 50% 40%;
+
+        --accent: 330 70% 85%; /* Lighter Pink for accents */
+        --accent-foreground: 330 50% 20%;
+
+        --destructive: 0 84.2% 60.2%;
+        --destructive-foreground: 0 0% 98%;
+
+        --border: 330 30% 85%; /* Soft Pinkish border */
+        --input: 330 30% 90%; /* Soft Pinkish input background */
+        --ring: 330 80% 65%;
+
+        --radius: 0.75rem;
+      }
+
+      .dark {
+        /* Adjust dark mode if needed, for now keeping it light */
+        --background: 0 0% 100%;
+        --foreground: 330 50% 20%;
+
+        --card: 0 0% 100%;
+        --card-foreground: 330 50% 20%;
+
+        --popover: 0 0% 100%;
+        --popover-foreground: 330 50% 20%;
+
+        --primary: 330 80% 65%;
+        --primary-foreground: 0 0% 100%;
+
+        --secondary: 250 60% 95%;
+        --secondary-foreground: 330 50% 20%;
+
+        --muted: 250 60% 97%;
+        --muted-foreground: 330 50% 40%;
+
+        --accent: 330 70% 85%;
+        --accent-foreground: 330 50% 20%;
+
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 0 0% 98%;
+
+        --border: 330 30% 85%;
+        --input: 330 30% 90%;
+        --ring: 330 80% 65%;
+      }
+    }
+
+    @layer base {
+      * {
+        @apply border-border;
+      }
+      body {
+        @apply bg-background text-foreground;
+        font-family: theme('fontFamily.sans');
+      }
+      h1, h2, h3, h4, h5, h6 {
+        @apply font-heading;
+      }
+    }
+
+    .glassmorphism-card {
+      background: rgba(255, 192, 203, 0.2); /* Light Pink with alpha */
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-radius: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .gradient-text {
+      @apply bg-gradient-to-r from-brand-pink to-brand-darkpink;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  
