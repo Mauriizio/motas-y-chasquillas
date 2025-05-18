@@ -28,7 +28,7 @@
                   <Link to="/" className="flex items-center space-x-2">
                     <PawPrint className="h-10 w-10 text-brand-darkpink animate-pulse-gentle" />
                     <span className="font-heading text-3xl font-bold gradient-text">
-                      Motas y Chasquillas
+                     GABRIEL HERNANDEZ
                     </span>
                   </Link>
                   <div className="hidden md:flex space-x-2">
